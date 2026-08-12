@@ -292,7 +292,7 @@ export default function MainContent() {
           <span>24.09.2026 - Jizzax viloyati</span>
         </div>
         <div className="footer-bottom">
-          X <Heart size={10} className="gold-heart" fill="currentColor" /> R
+          M <Heart size={10} className="gold-heart" fill="currentColor" /> R
         </div>
       </footer>
     </>
