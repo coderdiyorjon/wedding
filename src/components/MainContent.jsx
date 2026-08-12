@@ -203,8 +203,8 @@ export default function MainContent() {
                 </div>
               </div>
               <p className="qr-text">Manzilni QR orqali oling</p>
-              <button className="action-btn primary" onClick={() => window.open('https://maps.app.goo.gl/U3d8DmeBD84Ca2r29', '_blank')}><Navigation size={16} /> Google xaritada ko'rish</button>
-              /*<button className="action-btn secondary"><Calendar size={16} /> Taqvimga qo'shish</button>*/
+              <button className="action-btn primary" onClick={() => window.open('https://maps.app.goo.gl/77Bd7qB2bn55FyKw6', '_blank')}><Navigation size={16} /> Google xaritada ko'rish</button>
+              <button disabled className="action-btn secondary"><Calendar size={16} /> Taqvimga qo'shish</button>
             </div>
 
             {/* Card 2 */}
@@ -223,7 +223,7 @@ export default function MainContent() {
               </div>
               <p className="qr-text">Manzilni QR orqali oling</p>
               <button className="action-btn primary" onClick={() => window.open('https://maps.app.goo.gl/U3d8DmeBD84Ca2r29', '_blank')}><Navigation size={16} /> Google xaritada ko'rish</button>
-              /*<button className="action-btn secondary"><Calendar size={16} /> Taqvimga qo'shish</button>*/
+              <button disabled className="action-btn secondary"><Calendar size={16} /> Taqvimga qo'shish</button>
             </div>
           </div>
         </div>
