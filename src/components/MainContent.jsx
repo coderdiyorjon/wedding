@@ -185,33 +185,33 @@ export default function MainContent() {
             <Heart size={20} className="gold-heart" fill="currentColor" />
           </div>
           <h2 className="section-title">To'y Marosimlari</h2>
-          <p className="section-subtitle">To'yimiz ikki shaharda — ikki marosimda nishonlanadi</p>
+          <p className="section-subtitle">To'yimiz ikki marosimda nishonlanadi</p>
           
           <div className="cards-container">
             {/* Card 1 */}
             <div className="ceremony-card">
               <div className="card-badge">I</div>
               <p className="ceremony-type">BIRINCHI MAROSIM</p>
-              <h3 className="ceremony-date">10.10<br/><span>2026-yil</span></h3>
-              <h4 className="venue-name">Samo to'yxonasi</h4>
+              <h3 className="ceremony-date">25.08<br/><span>2026-yil</span></h3>
+              <h4 className="venue-name">Fayz to'yxonasi</h4>
               <p className="venue-address">
                 <MapPin size={14} /> Jizzax viloyati, Sharof Rashidov tumani
               </p>
               <div className="qr-placeholder">
                 <div className="qr-wrapper">
-                  <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://maps.app.goo.gl/U3d8DmeBD84Ca2r29" alt="QR Code" />
+                  <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://maps.app.goo.gl/77Bd7qB2bn55FyKw6" alt="QR Code" />
                 </div>
               </div>
               <p className="qr-text">Manzilni QR orqali oling</p>
               <button className="action-btn primary" onClick={() => window.open('https://maps.app.goo.gl/U3d8DmeBD84Ca2r29', '_blank')}><Navigation size={16} /> Google xaritada ko'rish</button>
-              <button className="action-btn secondary"><Calendar size={16} /> Taqvimga qo'shish</button>
+              /*<button className="action-btn secondary"><Calendar size={16} /> Taqvimga qo'shish</button>*/
             </div>
 
             {/* Card 2 */}
             <div className="ceremony-card">
               <div className="card-badge">II</div>
               <p className="ceremony-type">IKKINCHI MAROSIM</p>
-              <h3 className="ceremony-date">16.10<br/><span>2026-yil</span></h3>
+              <h3 className="ceremony-date">24.09<br/><span>2026-yil</span></h3>
               <h4 className="venue-name">Samo to'yxonasi</h4>
               <p className="venue-address">
                 <MapPin size={14} /> Jizzax viloyati, Sharof Rashidov tumani
@@ -223,7 +223,7 @@ export default function MainContent() {
               </div>
               <p className="qr-text">Manzilni QR orqali oling</p>
               <button className="action-btn primary" onClick={() => window.open('https://maps.app.goo.gl/U3d8DmeBD84Ca2r29', '_blank')}><Navigation size={16} /> Google xaritada ko'rish</button>
-              <button className="action-btn secondary"><Calendar size={16} /> Taqvimga qo'shish</button>
+              /*<button className="action-btn secondary"><Calendar size={16} /> Taqvimga qo'shish</button>*/
             </div>
           </div>
         </div>
