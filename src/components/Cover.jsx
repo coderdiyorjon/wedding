@@ -55,9 +55,9 @@ export default function Cover({ onOpen }) {
 
           <motion.p className="cover-subtitle" variants={itemVariants}>Nikoh Taklifnomasi</motion.p>
           
-          <motion.h1 className="cover-title" variants={itemVariants}>Xurshidjon</motion.h1>
+          <motion.h1 className="cover-title" variants={itemVariants}>Murodjon</motion.h1>
           <motion.div className="ampersand" variants={itemVariants}>&amp;</motion.div>
-          <motion.h1 className="cover-title" variants={itemVariants}>Ruxshonaoy</motion.h1>
+          <motion.h1 className="cover-title" variants={itemVariants}>Durdona</motion.h1>
           
           <motion.div className="diamond-divider" variants={itemVariants}>
             <div className="line left"></div>
@@ -71,9 +71,9 @@ export default function Cover({ onOpen }) {
           </motion.button>
           
           <motion.div className="cover-dates-column" variants={itemVariants}>
-            <span>10.10.2026 — Jizzax viloyati</span>
+            <span>25.08.2026 — Jizzax viloyati</span>
             <div className="date-separator-line"></div>
-            <span>16.10.2026 — Jizzax viloyati</span>
+            <span>24.09.2026 — Jizzax viloyati</span>
           </motion.div>
         </motion.div>
       </div>
