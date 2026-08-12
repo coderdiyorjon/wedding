@@ -123,18 +123,18 @@ export default function MainContent() {
           <Heart size={20} className="gold-heart" fill="currentColor" />
         </div>
         <h1 className="hero-title">
-          Xurshidjon<br />
+          Murodjon<br />
           <span className="ampersand">&amp;</span><br />
-          Ruxshonaoy
+          Durdona
         </h1>
         <div className="hero-dates">
           <div className="date-block">
-            <span className="date-text">10.10.2026</span>
+            <span className="date-text">25.08.2026</span>
             <span className="date-sub">JIZZAX VILOYATI</span>
           </div>
           <div className="vertical-line"></div>
           <div className="date-block">
-            <span className="date-text">16.10.2026</span>
+            <span className="date-text">24.09.2026</span>
             <span className="date-sub">JIZZAX VILOYATI</span>
           </div>
         </div>
@@ -168,7 +168,7 @@ export default function MainContent() {
           <div className="heart-divider">
             <Heart size={16} fill="currentColor" />
           </div>
-          <p className="message-signature">Hurmat bilan, Xurshidjon va Ruxshonaoy</p>
+          <p className="message-signature">Hurmat bilan, Murodjon va Durdona</p>
         </div>
       </motion.section>
 
@@ -282,14 +282,14 @@ export default function MainContent() {
 
       {/* FOOTER SECTION */}
       <footer className="main-footer">
-        <h2 className="footer-title">Xurshidjon & Ruxshonaoy</h2>
+        <h2 className="footer-title">Murodjon & Durdona</h2>
         <div className="heart-icon-wrapper">
           <Heart size={16} className="gold-heart" fill="currentColor" />
         </div>
         <div className="footer-dates">
-          <span>10.10.2026 - Jizzax viloyati</span>
+          <span>25.08.2026 - Jizzax viloyati</span>
           <span className="dot-separator">•</span>
-          <span>16.10.2026 - Jizzax viloyati</span>
+          <span>24.09.2026 - Jizzax viloyati</span>
         </div>
         <div className="footer-bottom">
           X <Heart size={10} className="gold-heart" fill="currentColor" /> R
