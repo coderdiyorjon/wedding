@@ -1,0 +1,223 @@
+.cover-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  position: relative;
+  z-index: 10;
+  overflow: hidden;
+  background: linear-gradient(to bottom right, #1a1a2e, #16213e, #0f0f23);
+}
+
+.bg-circle {
+  position: absolute;
+  border-radius: 50%;
+  border: 1px solid rgba(201, 160, 80, 0.1);
+}
+
+.orbit-dot {
+  position: absolute;
+  top: -3px;
+  left: 50%;
+  width: 6px;
+  height: 6px;
+  background-color: #c9a050;
+  border-radius: 50%;
+  box-shadow: 0 0 8px #c9a050;
+}
+
+.bg-circle.top-left {
+  top: 15%;
+  left: 15%;
+  width: 20rem;
+  height: 20rem;
+  animation: rotate-orbit 30s linear infinite;
+}
+
+.bg-circle.bottom-right {
+  bottom: 10%;
+  right: 15%;
+  width: 28rem;
+  height: 28rem;
+  animation: rotate-orbit 40s linear infinite reverse;
+}
+
+.bg-circle.center-large {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 120%;
+  height: 120%;
+  border-color: rgba(201, 160, 80, 0.05);
+}
+
+.cover-card-wrapper {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  max-width: 34rem; /* 544px */
+  margin: 0 auto;
+  z-index: 10;
+}
+
+.cover-card-border {
+  position: absolute;
+  top: -40px;
+  left: -40px;
+  right: -40px;
+  bottom: -40px;
+  border: 1px solid rgba(201, 160, 80, 0.2);
+  border-radius: 1rem;
+  pointer-events: none;
+}
+
+.sparkle {
+  position: absolute;
+  color: rgba(201, 160, 80, 0.45);
+  animation: rotate-orbit 10s linear infinite;
+}
+
+.sparkle.top-left {
+  top: -10px;
+  left: -10px;
+}
+
+.sparkle.bottom-right {
+  bottom: -10px;
+  right: -10px;
+}
+
+.cover-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heart-divider, .diamond-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.heart-divider.top {
+  margin-bottom: 36px;
+}
+
+.diamond-divider {
+  margin-bottom: 40px;
+}
+
+.line {
+  height: 1px;
+  width: 96px;
+}
+
+.line.left {
+  background: linear-gradient(to right, transparent, #c9a050);
+}
+
+.line.right {
+  background: linear-gradient(to left, transparent, #c9a050);
+}
+
+.gold-icon {
+  color: #c9a050;
+}
+
+.swinging-heart {
+  animation: swing-heart 2s ease-in-out infinite;
+  transform-origin: bottom center;
+}
+
+@keyframes swing-heart {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(30deg); }
+  75% { transform: rotate(-30deg); }
+  100% { transform: rotate(0deg); }
+}
+
+@keyframes rotate-orbit {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.diamond {
+  width: 8px;
+  height: 8px;
+  background-color: #c9a050;
+  transform: rotate(45deg);
+}
+
+.cover-subtitle {
+  font-size: 0.72rem;
+  letter-spacing: 0.38em;
+  text-transform: uppercase;
+  color: rgba(201, 160, 80, 0.85);
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+
+.cover-title {
+  font-family: var(--font-serif);
+  color: #fff;
+  font-weight: 600;
+  font-size: clamp(2.6rem, 9vw, 4.6rem);
+  line-height: 1.05;
+  text-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+
+.ampersand {
+  font-size: clamp(1.6rem, 5vw, 2.4rem);
+  color: #c9a050;
+  font-family: var(--font-serif);
+  margin: 4px 0;
+}
+
+.open-btn {
+  background: linear-gradient(to right, #9a7430, #c9a050, #9a7430);
+  color: #fff;
+  border: none;
+  padding: 16px 40px;
+  border-radius: 999px;
+  font-family: var(--font-sans);
+  font-size: 1.05rem;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 30px rgba(201, 160, 80, 0.45);
+  margin-bottom: 28px;
+}
+
+.open-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 40px rgba(201, 160, 80, 0.6);
+}
+
+.btn-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.cover-dates-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.cover-dates-column span {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.98rem;
+  letter-spacing: 0.04em;
+}
+
+.date-separator-line {
+  width: 40px;
+  height: 1px;
+  background-color: rgba(201, 160, 80, 0.5);
+}

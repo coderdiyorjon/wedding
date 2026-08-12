@@ -1,0 +1,43 @@
+.transition-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.golden-circle {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: var(--accent-gold);
+  border-radius: 50%;
+  z-index: 101;
+}
+
+.transition-heart-wrapper {
+  position: absolute;
+  z-index: 103;
+  color: #fff;
+  filter: drop-shadow(0 0 10px rgba(255,255,255,0.5));
+}
+
+.pop-circle {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: var(--accent-gold);
+  z-index: 102;
+}
+
+.pop-1 { width: 15px; height: 15px; }
+.pop-2 { width: 25px; height: 25px; }
+.pop-3 { width: 12px; height: 12px; }
+.pop-4 { width: 18px; height: 18px; }
